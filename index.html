@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arijeet Banerjee | Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Boxicons (Alternative clean icons) -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Animate.css for scroll animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress"></div>
+
+    <!-- Background Grid & Glow (Replaces Orbs for a more tech feel) -->
+    <div class="tech-background">
+        <div id="particles-js"></div>
+        <div class="grid-layer"></div>
+        <div class="glow-orb red"></div>
+        <div class="glow-orb blue"></div>
+        <div class="glow-orb purple"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="#" class="logo">Arijeet.</a>
+        <div class="nav-links">
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#certifications" class="nav-link">Certifications</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle Theme">
+            <i class="fas fa-moon dark-icon"></i>
+            <i class="fas fa-sun light-icon"></i>
+        </button>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section">
+            <div class="hero-content">
+                <p class="greeting animate__animated animate__fadeInUp">Code • Create • Innovate</p>
+                <h1 class="name-title animate__animated animate__fadeInUp animate__delay-1s">
+                    <span class="gradient-text">Arijeet</span> Banerjee
+                </h1>
+                <h2 class="role animate__animated animate__fadeInUp animate__delay-2s">
+                    I build <span class="typing-text"></span><span class="cursor-blink">|</span>
+                </h2>
+                <p class="bio animate__animated animate__fadeInUp animate__delay-3s">
+                    Passionate 4th-year B.Tech CSE student at BIET focusing on artificial intelligence,
+                    computer vision, and scalable software architecture to solve real-world problems.
+                </p>
+                <div class="hero-buttons animate__animated animate__zoomIn animate__delay-4s">
+                    <a href="#projects" class="btn btn-glow">View Work <i class='bx bx-right-arrow-alt'></i></a>
+                    <a href="Arijeet_Banerjee_Resume.pdf" download="Arijeet_Banerjee_Resume.pdf" class="btn btn-outline"
+                        title="Download Resume">Resume <i class='bx bx-download'></i></a>
+                    <a href="#contact" class="btn btn-outline">Let's Talk <i class='bx bx-message-dots'></i></a>
+
+                </div>
+            </div>
+            <div class="hero-visual animate__animated animate__fadeInRight animate__delay-2s">
+                <div class="profile-card" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-glare="true"
+                    data-tilt-max-glare="0.5">
+                    <div class="card-inner">
+                        <div class="hologram-effect"></div>
+                        <div class="profile-image-container">
+                            <img src="profile.jpeg" alt="Arijeet Banerjee" class="profile-img"
+                                onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'160\' height=\'160\'><rect width=\'160\' height=\'160\' fill=\'#0a0b1e\'/><path d=\'M80 80c-11 0-20-9-20-20s9-20 20-20 20 9 20 20-9 20-20 20zm0 10c16.6 0 50 8.3 50 25v15H30v-15c0-16.7 33.4-25 50-25z\' fill=\'#00f0ff\' opacity=\'0.5\'/></svg>'">
+                        </div>
+                        <h3 class="glitch" data-text="Developer">Developer</h3>
+                        <p class="tech-stack-mini">Python React JS C++</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About / Academics Section -->
+        <section id="about" class="about section">
+            <div class="section-header fade-in">
+                <span class="subtitle">01 // Background</span>
+                <h2 class="section-title">Academic Journey</h2>
+                <div class="line-decorator"></div>
+            </div>
+            <div class="about-grid fade-in">
+                <div class="glass-card education-card hover-glow">
+                    <div class="icon-box"><i class='bx bxs-graduation'></i></div>
+                    <div class="edu-content">
+                        <h3>B.Tech Computer Science & Engineering</h3>
+                        <p class="institution">Birbhum Institute of Engineering and Technology (BIET)</p>
+                        <div class="status-badge">
+                            <span class="dot pulse"></span>
+                            4th Year Student (Present)
+                        </div>
+                    </div>
+                </div>
+                <div class="glass-card info-card timeline-card hover-glow">
+                    <i class='bx bx-brain timeline-icon'></i>
+                    <p class="focus-text">
+                        Deeply focused on algorithm optimization and software engineering methodologies.
+                        My academic path has equipped me to bridge the gap between complex theoretical concepts
+                        and robust, deployable production applications.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section">
+            <div class="section-header fade-in">
+                <span class="subtitle">02 // Expertise</span>
+                <h2 class="section-title">Technical Arsenal</h2>
+                <div class="line-decorator"></div>
+            </div>
+
+            <div class="skills-wrapper fade-in">
+                <div class="skill-category">
+                    <h3 class="category-title"><i class='bx bx-code-alt'></i> Core Languages</h3>
+                    <div class="skills-container">
+                        <div class="skill-pill" data-tilt data-tilt-scale="1.1" data-tilt-max="20"><i
+                                class="fa-brands fa-python skill-icon python-color"></i> <span>Python</span></div>
+                        <div class="skill-pill" data-tilt data-tilt-scale="1.1" data-tilt-max="20"><i
+                                class="fa-brands fa-java skill-icon java-color"></i> <span>Java</span></div>
+                        <div class="skill-pill" data-tilt data-tilt-scale="1.1" data-tilt-max="20"><span
+                                class="c-badge">C</span> <span>C Programming</span></div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title"><i class='bx bx-window-alt'></i> Web Technologies</h3>
+                    <div class="skills-container">
+                        <div class="skill-pill" data-tilt data-tilt-scale="1.1" data-tilt-max="20"><i
+                                class="fa-brands fa-js skill-icon js-color"></i> <span>JavaScript</span></div>
+                        <div class="skill-pill" data-tilt data-tilt-scale="1.1" data-tilt-max="20"><i
+                                class="fa-brands fa-html5 skill-icon html-color"></i> <span>HTML5</span></div>
+                        <div class="skill-pill" data-tilt data-tilt-scale="1.1" data-tilt-max="20"><i
+                                class="fa-brands fa-css3-alt skill-icon css-color"></i> <span>CSS3</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section">
+            <div class="section-header fade-in">
+                <span class="subtitle">03 // Portfolio</span>
+                <h2 class="section-title">Featured Engineering</h2>
+                <div class="line-decorator"></div>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1: Zara -->
+                <div class="glass-card project-card hover-glow fade-in" data-tilt data-tilt-max="5"
+                    data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.2">
+                    <div class="project-image-box">
+                        <div class="project-overlay"></div>
+                        <i class='bx bx-bot giant-bg-icon'></i>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <div class="folder-icon"><i class='bx bx-folder'></i></div>
+                            <div class="project-links">
+                                <a href="https://github.com/Arijeet-B106" class="link-hover" aria-label="Github Repo"
+                                    target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="#" class="link-hover" aria-label="Live Demo"><i
+                                        class='bx bx-link-external'></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title-hover">Zara (AI Voice Assistant)</h3>
+                        <p class="project-desc">
+                            An intelligent AI-powered voice assistant capable of understanding natural language
+                            commands, automating workflows, and dynamically fetching real-time data to streamline user
+                            productivity.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag-tech">Python</span>
+                            <span class="tag-tech">NLP</span>
+                            <span class="tag-tech">Machine Learning</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Secure Vision -->
+                <div class="glass-card project-card hover-glow fade-in" data-tilt data-tilt-max="5"
+                    data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.2">
+                    <div class="project-image-box">
+                        <div class="project-overlay"></div>
+                        <i class='bx bx-cctv giant-bg-icon'></i>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <div class="folder-icon"><i class='bx bx-folder'></i></div>
+                            <div class="project-links">
+                                <a href="https://github.com/Arijeet-B106" class="link-hover" aria-label="Github Repo"
+                                    target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="https://github.com/TheBroCoders/SecureVision" class="link-hover"
+                                    aria-label="Live Demo"><i class='bx bx-link-external'></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title-hover">Secure Vision</h3>
+                        <p class="project-desc">
+                            A highly responsive 24/7 smart monitoring infrastructure built for commercial security.
+                            Leverages computer vision and IoT to detect anomalies and orchestrate real-time alert
+                            chains.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag-tech">Python</span>
+                            <span class="tag-tech">OpenCV</span>
+                            <span class="tag-tech">IoT Integration</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="certifications section">
+            <div class="section-header fade-in">
+                <span class="subtitle">04 // Achievements</span>
+                <h2 class="section-title">Certifications</h2>
+                <div class="line-decorator"></div>
+            </div>
+
+            <div class="cert-grid fade-in">
+                <!-- Cert 1 -->
+                <div class="glass-card cert-card hover-glow" data-tilt data-tilt-max="10" data-tilt-glare="true"
+                    data-tilt-max-glare="0.3">
+                    <div class="cert-icon"><i class='bx bx-bar-chart-alt-2'></i></div>
+                    <div class="cert-info">
+                        <h3>Data Visualisation: Empowering Business with Effective Insights</h3>
+                        <p class="cert-issuer">Tata Group · Forage</p>
+                        <a href="https://www.theforage.com/completion-certificates/ifobHAoMjQs9s6bKS/MyXvBcppsW2FkNYCX_ifobHAoMjQs9s6bKS_sDrTZgr6J3JGSpXMG_1751283005092_completion_certificate.pdf"
+                            class="cert-link" target="_blank" rel="noopener noreferrer">View Credential <i
+                                class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <!-- Cert 2 -->
+                <div class="glass-card cert-card hover-glow" data-tilt data-tilt-max="10" data-tilt-glare="true"
+                    data-tilt-max-glare="0.3">
+                    <div class="cert-icon"><i class='bx bx-chip'></i></div>
+                    <div class="cert-info">
+                        <h3>Technology</h3>
+                        <p class="cert-issuer">Deloitte · Forage</p>
+                        <a href="https://www.theforage.com/completion-certificates/9PBTqmSxAf6zZTseP/udmxiyHeqYQLkTPvf_9PBTqmSxAf6zZTseP_sDrTZgr6J3JGSpXMG_1753851290105_completion_certificate.pdf"
+                            class="cert-link" target="_blank" rel="noopener noreferrer">View Credential <i
+                                class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <!-- Cert 3 -->
+                <div class="glass-card cert-card hover-glow" data-tilt data-tilt-max="10" data-tilt-glare="true"
+                    data-tilt-max-glare="0.3">
+                    <div class="cert-icon"><i class='bx bx-code-block'></i></div>
+                    <div class="cert-info">
+                        <h3>Java</h3>
+                        <p class="cert-issuer">Scaler</p>
+                        <a href="https://moonshot.scaler.com/s/li/4o5MOoGEA3" class="cert-link" target="_blank"
+                            rel="noopener noreferrer">View Credential <i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <div class="glass-card contact-card hover-glow fade-in">
+                <div class="contact-header">
+                    <span class="subtitle">05 // What's Next?</span>
+                    <h2 class="section-title">Get In Touch</h2>
+                </div>
+                <p class="contact-text">
+                    Whether you have an exciting project, a role opportunity, or just want to discuss software
+                    architecture—my inbox is open.
+                </p>
+                <div class="social-links">
+                    <a href="https://github.com/Arijeet-B106" class="social-btn fancy-hover" target="_blank"><i
+                            class="fab fa-github"></i> <span>GitHub</span></a>
+                    <a href="https://www.linkedin.com/in/arijeet-cse/" class="social-btn fancy-hover" target="_blank"><i
+                            class="fab fa-linkedin-in"></i>
+                        <span>LinkedIn</span></a>
+                    <a href="mailto:arijeet0808@gmail.com" class="social-btn fancy-hover highlight-btn"><i
+                            class="fas fa-paper-plane"></i> <span>Say Hello</span></a>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <a href="#" class="footer-logo">Arijeet.</a>
+            <p>&copy; 2024 Built with passion by Arijeet Banerjee.</p>
+            <div class="footer-icons">
+                <a href="https://github.com/Arijeet-B106" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/arijeet-cse/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Vanilla-Tilt library for 3D card effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+    <!-- Particles.js -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
